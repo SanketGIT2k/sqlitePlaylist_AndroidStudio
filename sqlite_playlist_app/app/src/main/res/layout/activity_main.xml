@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp"
+    android:paddingLeft="16dp"
+    android:background="@android:color/darker_gray"
+    android:paddingRight="16dp"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
+
+    <VideoView
+        android:id="@+id/videoviewer"
+        android:layout_width="match_parent"
+        android:layout_height="225dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+
+        />
+
+    <ListView
+        android:id="@+id/videolist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/videoviewer"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="26dp"
+        android:layout_marginBottom="80dp"
+
+        />
+
+</RelativeLayout>
